@@ -31,7 +31,7 @@ namespace IIS.UchetMedosmotrov2
     [View("ДолжностиE", new string[] {
             "Наименование as \'Наименование\'",
             "Подразделения as \'Подразделения\'",
-            "Подразделения.Наименование as \'Наименование\'"}, Hidden=new string[] {
+            "Подразделения.Наименование as \'Подразделение\'"}, Hidden=new string[] {
             "Подразделения.Наименование"})]
     [MasterViewDefineAttribute("ДолжностиE", "Подразделения", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     [View("ДолжностиL", new string[] {

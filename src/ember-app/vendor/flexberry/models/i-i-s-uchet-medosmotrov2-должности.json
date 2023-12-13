@@ -48,7 +48,7 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Подразделение",
               "hidden": true,
               "index": 2
             }

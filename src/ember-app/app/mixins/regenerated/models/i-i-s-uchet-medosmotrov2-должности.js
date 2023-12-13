@@ -29,7 +29,7 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ДолжностиE', 'i-i-s-uchet-medosmotrov2-должности', {
     наименование: attr('Наименование', { index: 0 }),
     подразделения: belongsTo('i-i-s-uchet-medosmotrov2-подразделения', 'Подразделения', {
-      наименование: attr('Наименование', { index: 2, hidden: true })
+      наименование: attr('Подразделение', { index: 2, hidden: true })
     }, { index: 1, displayMemberPath: 'наименование' })
   });
 
