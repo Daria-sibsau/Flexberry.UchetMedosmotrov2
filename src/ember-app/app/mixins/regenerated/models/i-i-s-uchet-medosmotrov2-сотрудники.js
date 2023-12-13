@@ -90,9 +90,12 @@ export let defineProjections = function (modelClass) {
     серияПаспорта: attr('Серия паспорта', { index: 3 }),
     номерПаспорта: attr('Номер паспорта', { index: 4 }),
     телефон: attr('Телефон', { index: 5 }),
-    iDСотрудника: attr('I d сотрудника', { index: 6 }),
-    должности: belongsTo('i-i-s-uchet-medosmotrov2-должности', 'Наименование', {
-      наименование: attr('Наименование', { index: 7 })
-    }, { index: -1, hidden: true })
+    iDСотрудника: attr('ID сотрудника', { index: 6 }),
+    должности: belongsTo('i-i-s-uchet-medosmotrov2-должности', 'Должность', {
+      наименование: attr('Наименование', { index: 8 }),
+      подразделения: belongsTo('i-i-s-uchet-medosmotrov2-подразделения', '', {
+        наименование: attr('Подразделение', { index: 9 })
+      }, { index: -1, hidden: true })
+    }, { index: 7 })
   });
 };
