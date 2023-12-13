@@ -1,0 +1,1 @@
+docker-compose -p uchetmedosmotrov2-java down

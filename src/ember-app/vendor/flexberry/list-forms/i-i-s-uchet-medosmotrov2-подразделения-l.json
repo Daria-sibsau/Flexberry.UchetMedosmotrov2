@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-uchet-medosmotrov2-подразделения-e",
+  "editForm": "i-i-s-uchet-medosmotrov2-подразделения-e",
+  "external": false,
+  "caption": "Подразделения",
+  "name": "IISUchetMedosmotrov2ПодразделенияL",
+  "className": "ПодразделенияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov2-подразделения",
+      "modelProjection": "ПодразделенияL"
+    }
+  ]
+}

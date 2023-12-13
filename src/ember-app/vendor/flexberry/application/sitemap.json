@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Uchet medosmotrov2",
+  "applicationTitle": "Uchet medosmotrov2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "uchet-medosmotrov2",
+      "caption": "UchetMedosmotrov2",
+      "title": "UchetMedosmotrov2",
+      "children": [
+        {
+          "link": "i-i-s-uchet-medosmotrov2-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov2-подразделения-l",
+          "menuName": null,
+          "caption": "Подразделения",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov2-приказ-м-з-р-l",
+          "menuName": null,
+          "caption": "Приказ МЗР",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov2-инд-напр-медосм-l",
+          "menuName": null,
+          "caption": "Инд напр медосм",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov2-список-на-медосм-l",
+          "menuName": null,
+          "caption": "Список на медосм",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov2-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov2-класс-вред-факт-l",
+          "menuName": null,
+          "caption": "Класс вред факт",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov2-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

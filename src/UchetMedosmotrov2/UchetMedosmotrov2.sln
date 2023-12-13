@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UchetMedosmotrov2.Objects", "Objects/UchetMedosmotrov2.Objects.csproj", "b5656568-ecb4-462e-8a0a-66d017af57f3"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UchetMedosmotrov2.Tests", "Tests/UchetMedosmotrov2.Tests.csproj", "942c9b6f-2f0f-44e3-a90e-73885a4d296d"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UchetMedosmotrov2.ODataBackend", "ODataBackend/UchetMedosmotrov2.ODataBackend.csproj", "1134b8a9-81a5-432d-9fb4-7cf732d2fd6e"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UchetMedosmotrov2.IntegrationTests", "IntegrationTests/UchetMedosmotrov2.IntegrationTests.csproj", "e9e700d4-0176-4ae5-835b-dedc61c0aadc"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		b5656568-ecb4-462e-8a0a-66d017af57f3.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		b5656568-ecb4-462e-8a0a-66d017af57f3.Debug|Any CPU.Build.0 = Debug|Any CPU
+		b5656568-ecb4-462e-8a0a-66d017af57f3.Release|Any CPU.ActiveCfg = Release|Any CPU
+		b5656568-ecb4-462e-8a0a-66d017af57f3.Release|Any CPU.Build.0 = Release|Any CPU
+		942c9b6f-2f0f-44e3-a90e-73885a4d296d.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		942c9b6f-2f0f-44e3-a90e-73885a4d296d.Debug|Any CPU.Build.0 = Debug|Any CPU
+		942c9b6f-2f0f-44e3-a90e-73885a4d296d.Release|Any CPU.ActiveCfg = Release|Any CPU
+		942c9b6f-2f0f-44e3-a90e-73885a4d296d.Release|Any CPU.Build.0 = Release|Any CPU
+		1134b8a9-81a5-432d-9fb4-7cf732d2fd6e.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1134b8a9-81a5-432d-9fb4-7cf732d2fd6e.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1134b8a9-81a5-432d-9fb4-7cf732d2fd6e.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1134b8a9-81a5-432d-9fb4-7cf732d2fd6e.Release|Any CPU.Build.0 = Release|Any CPU
+		e9e700d4-0176-4ae5-835b-dedc61c0aadc.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		e9e700d4-0176-4ae5-835b-dedc61c0aadc.Debug|Any CPU.Build.0 = Debug|Any CPU
+		e9e700d4-0176-4ae5-835b-dedc61c0aadc.Release|Any CPU.ActiveCfg = Release|Any CPU
+		e9e700d4-0176-4ae5-835b-dedc61c0aadc.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

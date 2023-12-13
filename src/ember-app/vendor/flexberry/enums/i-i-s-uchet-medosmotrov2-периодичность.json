@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.UchetMedosmotrov2",
+  "className": "Периодичность",
+  "enumObjects": {
+    "РазВГод": "РазВГод",
+    "РазВДваГода": "РазВДваГода"
+  }
+}

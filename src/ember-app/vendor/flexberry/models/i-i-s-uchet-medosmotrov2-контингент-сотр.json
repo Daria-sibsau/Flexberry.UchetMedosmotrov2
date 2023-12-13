@@ -1,0 +1,165 @@
+﻿{
+  "name": "IISUchetMedosmotrov2КонтингентСотр",
+  "modelName": "i-i-s-uchet-medosmotrov2-контингент-сотр",
+  "className": "КонтингентСотр",
+  "nameSpace": "IIS.UchetMedosmotrov2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "всего",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "до21Года",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "женщины",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "мужчины",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "периодичность",
+      "type": "i-i-s-uchet-medosmotrov2-периодичность",
+      "flexberryType": "Периодичность",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "классВредФакт",
+      "relatedTo": "i-i-s-uchet-medosmotrov2-класс-вред-факт",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приказМЗР",
+      "relatedTo": "i-i-s-uchet-medosmotrov2-приказ-м-з-р",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "списокНаМедосм",
+      "relatedTo": "i-i-s-uchet-medosmotrov2-список-на-медосм",
+      "inverse": "контингентСотр"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтингентСотрE",
+      "modelName": "i-i-s-uchet-medosmotrov2-контингент-сотр",
+      "attrs": [
+        {
+          "name": "мужчины",
+          "caption": "Мужчины",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "женщины",
+          "caption": "Женщины",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "до21Года",
+          "caption": "До 21 года",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "всего",
+          "caption": "Всего",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "периодичность",
+          "caption": "Периодичность",
+          "hidden": false,
+          "index": 8
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "КлассВредФакт",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Фактор производства",
+              "hidden": true,
+              "index": 5
+            }
+          ],
+          "index": 4,
+          "type": "standard",
+          "caption": "Класс вред факт",
+          "name": "классВредФакт",
+          "relatedTo": "i-i-s-uchet-medosmotrov2-класс-вред-факт",
+          "inverse": null
+        },
+        {
+          "lookupValue": "НомерПункта",
+          "lookupValueField": "номерПункта",
+          "relationName": "ПриказМЗР",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерПункта",
+              "caption": "Номер пункта",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Приказ МЗР",
+          "name": "приказМЗР",
+          "relatedTo": "i-i-s-uchet-medosmotrov2-приказ-м-з-р",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
