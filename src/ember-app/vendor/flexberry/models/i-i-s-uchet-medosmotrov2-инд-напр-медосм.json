@@ -203,7 +203,7 @@
         },
         {
           "name": "медУчреждение",
-          "caption": "Мед учреждение",
+          "caption": "Медицинское учреждение",
           "hidden": false,
           "index": 2
         }
@@ -239,14 +239,14 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Наименование организации",
               "hidden": false,
               "index": 4
             }
           ],
           "index": -1,
           "type": "default",
-          "caption": "Наименование",
+          "caption": "Наименование организации",
           "name": "организация",
           "relatedTo": "i-i-s-uchet-medosmotrov2-организация",
           "inverse": null

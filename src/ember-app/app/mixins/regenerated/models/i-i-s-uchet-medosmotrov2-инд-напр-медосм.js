@@ -86,12 +86,12 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ИндНапрМедосмL', 'i-i-s-uchet-medosmotrov2-инд-напр-медосм', {
     номерДок: attr('Номер док', { index: 0 }),
     дата: attr('Дата', { index: 1 }),
-    медУчреждение: attr('Мед учреждение', { index: 2 }),
+    медУчреждение: attr('Медицинское учреждение', { index: 2 }),
     сотрудники: belongsTo('i-i-s-uchet-medosmotrov2-сотрудники', 'ФИО', {
       фИО: attr('ФИО', { index: 3 })
     }, { index: -1, hidden: true }),
-    организация: belongsTo('i-i-s-uchet-medosmotrov2-организация', 'Наименование', {
-      наименование: attr('Наименование', { index: 4 })
+    организация: belongsTo('i-i-s-uchet-medosmotrov2-организация', 'Наименование организации', {
+      наименование: attr('Наименование организации', { index: 4 })
     }, { index: -1, hidden: true })
   });
 };

@@ -81,7 +81,7 @@ export let defineProjections = function (modelClass) {
     номерПаспорта: attr('Номер паспорта', { index: 4 }),
     телефон: attr('Телефон', { index: 5 }),
     iDСотрудника: attr('ID сотрудника', { index: 6 }),
-    должности: belongsTo('i-i-s-uchet-medosmotrov2-должности', 'Должности', {
+    должности: belongsTo('i-i-s-uchet-medosmotrov2-должности', 'Должность', {
       наименование: attr('Должность', { index: 8, hidden: true }),
       подразделения: belongsTo('i-i-s-uchet-medosmotrov2-подразделения', '', {
         наименование: attr('Подразделение', { index: 9 })
@@ -98,10 +98,7 @@ export let defineProjections = function (modelClass) {
     телефон: attr('Телефон', { index: 5 }),
     iDСотрудника: attr('ID сотрудника', { index: 6 }),
     должности: belongsTo('i-i-s-uchet-medosmotrov2-должности', 'Должность', {
-      наименование: attr('Наименование', { index: 8 }),
-      подразделения: belongsTo('i-i-s-uchet-medosmotrov2-подразделения', '', {
-        наименование: attr('Подразделение', { index: 9 })
-      }, { index: -1, hidden: true })
-    }, { index: 7 })
+      наименование: attr('Должность', { index: 7 })
+    }, { index: -1, hidden: true })
   });
 };

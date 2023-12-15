@@ -167,7 +167,7 @@
           ],
           "index": 7,
           "type": "standard",
-          "caption": "Должности",
+          "caption": "Должность",
           "name": "должности",
           "relatedTo": "i-i-s-uchet-medosmotrov2-должности",
           "inverse": null
@@ -227,39 +227,17 @@
           "lookupValue": null,
           "lookupValueField": null,
           "relationName": "Должности",
-          "belongsTo": [
-            {
-              "lookupValue": null,
-              "lookupValueField": null,
-              "relationName": "Должности.Подразделения",
-              "belongsTo": [],
-              "hidden": false,
-              "attrs": [
-                {
-                  "name": "наименование",
-                  "caption": "Подразделение",
-                  "hidden": false,
-                  "index": 9
-                }
-              ],
-              "index": -1,
-              "type": null,
-              "caption": "",
-              "name": "подразделения",
-              "relatedTo": "i-i-s-uchet-medosmotrov2-подразделения",
-              "inverse": null
-            }
-          ],
+          "belongsTo": [],
           "hidden": false,
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "Должность",
               "hidden": false,
-              "index": 8
+              "index": 7
             }
           ],
-          "index": 7,
+          "index": -1,
           "type": "default",
           "caption": "Должность",
           "name": "должности",
